@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <article>
+    <!-- Left Image -->
+    <picture media="(min-width: 616px)" srcset="images/image-product-desktop.jpg">
+      <img src="images/image-product-mobile.jpg" alt="product image about the Gabrielle Essence Eau De Parfum">
+    </picture>
+
+    <!-- Right Text -->
+    <div class="card-main-content">
+      <span class="card-category">PERFUME</span>
+
+      <h1 class="card-heading">Gabrielle Essence Eau De Parfum</h1>
+
+      <p class="card-description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.</p>
+
+      <div class="card-price-container">
+        <p>$149.99</p>
+        <del><span class="sr-only"></span>$169.99</del>
+      </div>
+
+      <button>
+        <img src="images/icon-cart.svg" aria-hidden="true" />Add to Cart
+      </button>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="attribution">
+    Challenge by <a class="attribution-link" href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a>.
+    Coded by <a class="attribution-link" href="https://github.com/Levkol">Levente Nagy</a>.
+  </footer>
+</body>
+
+</html>
